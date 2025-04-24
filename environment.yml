@@ -1,0 +1,8 @@
+name: plasmid-assembly
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3
+  - pysam=0.23.0
+  - minimap2=2.29
