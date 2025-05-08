@@ -1,5 +1,7 @@
 # Plasmid Surgery
 
+[!Logo](/docs/images/plasmid-surgery.png)
+
 Tools like [mob-suite](https://github.com/phac-nml/mob-suite) produce plasmid reconstructions that consist of a set of contigs
 without information about the order or orientation of the contigs in the complete plasmid.
 
@@ -10,7 +12,7 @@ reference plasmid.
 ## Usage
 
 ```
-usage: plasmid-surgery.py [-h] [--plasmid-reconstruction PLASMID_RECONSTRUCTION] [--ref-plasmid REF_PLASMID] [--tmpdir TMPDIR] [--summary-output SUMMARY_OUTPUT] [--output OUTPUT] [--output-seq-id OUTPUT_SEQ_ID]
+usage: plasmid-surgery [-h] [--plasmid-reconstruction PLASMID_RECONSTRUCTION] [--ref-plasmid REF_PLASMID] [--tmpdir TMPDIR] [--summary-output SUMMARY_OUTPUT] [--output OUTPUT] [--output-seq-id OUTPUT_SEQ_ID]
                           [--output-bases-per-line OUTPUT_BASES_PER_LINE] [--log-level LOG_LEVEL]
 
 options:
